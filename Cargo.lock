@@ -307,6 +307,13 @@ version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
+name = "event_manager"
+version = "0.1.0"
+dependencies = [
+ "core 0.1.0",
+]
+
+[[package]]
 name = "fake-simd"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -937,6 +944,7 @@ name = "vulkano-tests"
 version = "0.1.0"
 dependencies = [
  "core 0.1.0",
+ "event_manager 0.1.0",
  "object_manager 0.1.0",
  "scene_manager 0.1.0",
 ]
