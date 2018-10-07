@@ -19,14 +19,6 @@ impl SceneManager {
 impl Updateable for SceneManager {
     fn update(&self) {
         // ToDo: The needful
-        println!("Hello, world!");
-    }
-}
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
+        println!("Scene Manager");
     }
 }
