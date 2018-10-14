@@ -6,3 +6,5 @@ authors = ["jmoore5268 <jmoore5268@gmail.com>"]
 [dependencies]
 core = { path = "lib/core" }
 scene_manager = { path = "lib/scene_manager" }
+object_manager = { path = "lib/object_manager" }
+event_manager = { path = "lib/event_manager" }
