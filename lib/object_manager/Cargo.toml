@@ -1,7 +1,0 @@
-[package]
-name = "object_manager"
-version = "0.1.0"
-authors = ["jmoore5268 <jmoore5268@gmail.com>"]
-
-[dependencies]
-core = { path = "../core" }
